@@ -1,0 +1,49 @@
+:root {
+  --bg: #f7f8fb;
+  --panel: #ffffff;
+  --ink: #18212f;
+  --muted: #5d6878;
+  --line: #dfe5ee;
+  --accent: #0f766e;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, sans-serif;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid var(--line);
+}
+
+.site-logo {
+  font-weight: bold;
+}
+
+.article {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 28px;
+}
+
+.summary-box, .section {
+  background: var(--panel);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.buy-button {
+  background: orange;
+  color: white;
+  padding: 10px 15px;
+}
